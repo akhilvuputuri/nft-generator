@@ -1,0 +1,51 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules
+
+# testing
+client/coverage
+
+# next.js
+client/.next/
+client/out/
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/*.pem
+
+# debug
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+client/.env*
+
+# vercel
+client/.vercel
+
+# typescript
+client/*.tsbuildinfo
+client/next-env.d.ts
+
+# Hardhat artifacts packages from web3
+client/src/artifacts
+
+
+
+
+# Ignore node_modules
+web3/node_modules/
+
+# Ignore Hardhat artifacts
+web3/artifacts/
+web3/cache/
+# typechain/
+# typechain-types/
+# coverage/
