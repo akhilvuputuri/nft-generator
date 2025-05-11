@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "browser-image-compression": "^2.0.2",
     "ethers": "^5.5.3",
     "next": "15.3.2",
     "openai": "^4.98.0",
     "pinata": "^2.2.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sharp": "^0.34.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
