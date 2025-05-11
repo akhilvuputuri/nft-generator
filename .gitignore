@@ -49,3 +49,6 @@ web3/cache/
 # typechain/
 # typechain-types/
 # coverage/
+
+.DS_Store
+.vscode/
